@@ -1,0 +1,51 @@
+query_id,query,query_category,remarks
+Q001,Why do customers request refunds?,Initial Causal Query,"Open-ended causal inquiry, should retrieve diverse evidence"
+Q002,What causes customer complaints?,Initial Causal Query,General causal question requiring multiple factors
+Q003,Why are customers dissatisfied with our service?,Initial Causal Query,Service-focused causal inquiry
+Q004,What leads to account cancellations?,Initial Causal Query,Business metric causal question
+Q005,Why do customers contact support multiple times?,Initial Causal Query,Behavioral pattern causal inquiry
+Q006,Can you validate the Product Defects factor?,Factor Validation,"Direct validation request, should use existing evidence"
+Q007,How strong is the evidence for Billing Issues?,Factor Validation,Strength assessment request
+Q008,Is Delivery Delays a valid factor?,Factor Validation,Binary validation question
+Q009,Verify the claims about Poor Customer Service,Factor Validation,Verification request with specific factor
+Q010,How reliable is that factor?,Factor Validation,Context-dependent validation (uses 'that')
+Q011,Show me examples of Product Defects,Evidence Request,Direct evidence request for specific factor
+Q012,What are specific instances of billing errors?,Evidence Request,Instance request with domain context
+Q013,Can you provide transcript evidence for those claims?,Evidence Request,Context-dependent evidence request (uses 'those')
+Q014,Give me more details about delivery problems,Evidence Request,Detail expansion request
+Q015,Show me the conversations where customers mentioned refunds,Evidence Request,Specific transcript search request
+Q016,Compare Product Defects vs Billing Issues,Comparative Query,Two-factor comparison
+Q017,Which is more common: delivery delays or product defects?,Comparative Query,Frequency comparison question
+Q018,What's the difference between technical issues and usability problems?,Comparative Query,Conceptual difference query
+Q019,Is billing more problematic than shipping?,Comparative Query,Binary comparative with severity assessment
+Q020,How does customer support quality compare to product quality?,Comparative Query,Service vs product comparison
+Q021,What do you mean by Product Defects?,Clarification Query,Definition clarification
+Q022,Can you elaborate on that factor?,Clarification Query,Context-dependent elaboration (uses 'that')
+Q023,Explain the difference between those two factors,Clarification Query,Context-dependent comparative clarification
+Q024,What specifically counts as a billing issue?,Clarification Query,Scope clarification
+Q025,Define what you mean by delivery delays,Clarification Query,Explicit definition request
+Q026,Are there more cases of product defects in electronics?,Refinement Query,Domain-specific refinement with context dependency
+Q027,Show me additional evidence for that factor,Refinement Query,Evidence expansion request (uses 'that')
+Q028,Are there similar issues in other transcripts?,Refinement Query,Pattern expansion with context dependency
+Q029,What about refunds due to shipping damage?,Refinement Query,Specific subcategory exploration
+Q030,Do we see the same pattern in recent conversations?,Refinement Query,Temporal refinement with context dependency
+Q031,What are the top 3 reasons for customer dissatisfaction?,Initial Causal Query,Multi-factor ranking request
+Q032,Are product quality and delivery both contributing factors?,Factor Validation,Multi-factor validation
+Q033,Compare all identified factors by evidence strength,Comparative Query,Global comparison across all factors
+Q034,Which factors appear together most often?,Comparative Query,Co-occurrence analysis query
+Q035,Show me cases where multiple issues led to refund requests,Evidence Request,Multi-factor evidence request
+Q036,Why do customers in the billing department escalate issues?,Initial Causal Query,Department-specific causal inquiry
+Q037,What causes technical support tickets to remain unresolved?,Initial Causal Query,Process-specific causal question
+Q038,Why are returns higher for certain product categories?,Initial Causal Query,Category-specific causal inquiry
+Q039,What leads to negative reviews after purchase?,Initial Causal Query,Outcome-specific causal question
+Q040,Why do customers abandon their carts during checkout?,Initial Causal Query,Behavioral causal inquiry
+Q041,Are there cases where product defects were NOT the issue?,Evidence Request,Negation query for counter-evidence
+Q042,What factors are NOT supported by strong evidence?,Factor Validation,Inverse validation question
+Q043,Which transcripts mention refunds but not defects?,Evidence Request,Exclusion filter query
+Q044,Why don't we see more complaints about pricing?,Initial Causal Query,Absence-based causal question
+Q045,Are there alternative explanations for those patterns?,Clarification Query,Alternative hypothesis request
+Q046,How have refund reasons changed over time?,Comparative Query,Temporal trend analysis
+Q047,What typically happens before a customer requests a refund?,Initial Causal Query,Sequential causal pattern
+Q048,Do billing issues usually lead to cancellations?,Factor Validation,Causal chain validation
+Q049,Show me the progression from complaint to resolution,Evidence Request,Sequential evidence request
+Q050,Which factors emerge first in customer conversations?,Comparative Query,Temporal sequence comparison
